@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: rgb(230, 52, 52);
+    display: flex;
+
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+}
+
+#logo img{
+    border-radius: 200px;
+    width: 95px;
+    margin: 5px;
+    height: 81px;
+}
+
+
+#navcontainer ul{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    padding: 21px 4px;
+}
+
+#navcontainer li{
+    list-style: none;
+}
+
+#navcontainer li a{
+    text-decoration: none;
+    padding: 15px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+#navcontainer li a:hover{
+    color: black;
+}
+
+#infosection{
+    background: center/cover no-repeat url("/static/bg.jpg");
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    align-items: center;
+    height: 600px;
+    background-color: red;
+    font-size: 53px;
+
+}
+
+#infosection div.small{
+    font-size: 42px;
+}
+
+#missionsection{
+    height: 354px;
+    /* background-color: aqua; */
+    margin: auto;
+    width: 80%;
+    
+}
+
+#missionsection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-size: 52px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 25px;
+    height: 209px;
+}
+
+#missionsection h3{
+    text-align: center;
+    margin: 12px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.card-img{
+    height: 124px;
+    padding: 0 14px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 19px;
+}
+
+#sponsersection{
+    height: 316px;
+    background-color: rgb(199, 148, 148);
+}
+
+#sponsersection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-size: 52px;
+}
+
+#sponsors{
+    height: 196px;
+    max-width: 1000px;
+    margin: 19px auto;
+}
+
+.spimage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    height: 60px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+}

@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Sagar Dance Academy
+    block scripts 
+    block style 
+  body
+    nav#navbar
+        div#logo 
+          img(src="/static/logo1.jpg")
+
+        div#navcontainer
+          ul
+            li #[a(href="/home") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact Us]
+
+    block content 
+
+    footer#footer
+      | Copyright © 2019 SagarDanceAcademy.com 
